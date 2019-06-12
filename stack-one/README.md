@@ -6,7 +6,7 @@ This challenge is about AMD64 stack-one
 
 Let's start looking at the source code:
 
-![](https://raw.githubusercontent.com/Altelus1/Hacking_Adventures/master/Phoenix/stack-one/images/1.png)
+![](https://raw.githubusercontent.com/Altelus1/Phoenix_Writeup/master/stack-one/images/1.png)
 
 It's basically the same as stack-zero. The only differences are:
 - It's getting user input from the command line. Specifically the 1st argument.
@@ -20,7 +20,7 @@ If it's almost exact the same, does the exploit from stack-zero (with a little t
 
 Let's see.
 
-![](https://raw.githubusercontent.com/Altelus1/Hacking_Adventures/master/Phoenix/stack-one/images/2.png)
+![](https://raw.githubusercontent.com/Altelus1/Phoenix_Writeup/master/stack-one/images/2.png)
 
 We can see the message:
 
@@ -36,7 +36,7 @@ insertion of values.
 
 ### Finally
 
-![](https://raw.githubusercontent.com/Altelus1/Hacking_Adventures/master/Phoenix/stack-one/images/3.png)
+![](https://raw.githubusercontent.com/Altelus1/Phoenix_Writeup/master/stack-one/images/3.png)
 
 ```b = 0x62``` <br/>
 ```Y = 0x59``` <br/>
