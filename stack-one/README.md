@@ -13,7 +13,7 @@ It's basically the same as stack-zero. The only differences are:
 - The user input is now stored in the locals.buffer using strcpy() instead of gets()
 - local.changeme has to have a specific value which is 0x496c5962
 
-(stack-zero : https://github.com/Altelus1/Hacking_Adventures/tree/master/Phoenix/stack-zero)
+(stack-zero : https://github.com/Altelus1/Phoenix_Writeup/tree/master/stack-zero)
 
 Question:
 If it's almost exact the same, does the exploit from stack-zero (with a little tweaking) would still work?
