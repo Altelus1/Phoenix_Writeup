@@ -28,10 +28,12 @@ We can see the message:
 
 The exploit still works! We are able to change the first byte
 of locals.changeme. However, how are we going to make it equal
-to 0x496c5962. We also have to notice that the first byte
-is in the right most of the locals.changeme. This is cause by the
-endiannes (https://en.wikipedia.org/wiki/Endianness) since x86_64
-is little endian. So we have to reverse the ordering of the
+to 0x496c5962? We just have to insert values that is according
+to what we need (i.e. 0x496c5962) and not just "A"s anymore! 
+We also have to notice that the first byte
+is in the right most of the locals.changeme. This is caused by the
+endiannes (https://en.wikipedia.org/wiki/Endianness) of x86_64 since
+the architecture is little endian. So we have to reverse the ordering of the
 insertion of values.
 
 ### Finally
